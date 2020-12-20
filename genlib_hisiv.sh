@@ -1,6 +1,6 @@
 #build common
 cd common
-arm-himix100-linux-gcc -c *.c -I./ -I../include -I../adp/ -DSENSOR0_TYPE=SONY_IMX327_2L_MIPI_2M_30FPS_12BIT
+arm-himix100-linux-gcc -c *.c -I./ -I../include -I../adp/ -DSENSOR0_TYPE=OMNIVISION_OS05A_MIPI_5M_30FPS_12BIT
 cd ..
 #build sample_venc
 arm-himix100-linux-gcc -c sample_venc.c -I./common/ -I./include
